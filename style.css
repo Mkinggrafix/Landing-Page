@@ -836,14 +836,23 @@ body{
     }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 480px) {
     #navbar{
-        width: 100%;
-        /* margin: 0; */
+        width: 350px;
+        margin: 0;
+    }
+
+    #navbar .brand ul{
+        margin: 10px 0px 10px 0px;
+    }
+
+    #navbar .brand li{
+        list-style-type: none;
+        margin-left: 5px;
     }
 
     #navbar .my_nav ul{
-        margin: 10px 00px 10px 0px;
+        margin: 10px 0px 0px 0px;
     }
 
     #showcase .content{
@@ -983,12 +992,16 @@ body{
         display: none;
     }
 
+    #portfolio_section .left_side{
+        padding-top: 60px;
+     }
+
     #portfolio_section .right_side{
        display: none;
     }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 250px) {
     #navbar .my_nav ul{
         margin: 10px 10px 10px 100px;
     }
